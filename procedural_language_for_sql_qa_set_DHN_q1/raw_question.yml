@@ -1,0 +1,25 @@
+title: Q1
+type: scored_question
+prompt: What are the primary control structures used in procedural languages for SQL, and what is the purpose of each?
+fields:
+checkbox_answers:
+    type: checkbox
+    max_score: 3
+    label: Check if answered correctly
+    checkboxes:
+      - label: "IF-THEN-ELSE: Used for conditional execution of code blocks based on specified conditions."
+        points: 1
+        value: ans_0
+      - label: "LOOP: Allows repetitive execution of a block of code until a specified condition is met."
+        points: 1
+        value: ans_1
+      - label: "WHILE: Executes a block of code repeatedly as long as a specified condition is true."
+        points: 1
+        value: ans_2
+      - label: "FOR: Iterates over a predefined range or set of values, executing a block of code for each iteration."
+        points: 1
+        value: ans_3
+      - label: "CASE: Provides multi-way branching based on different conditions or value matches.
+<note>Note: Candidates should provide at least 3 of these control structures and their purposes.</note>"
+        points: 1
+        value: ans_4

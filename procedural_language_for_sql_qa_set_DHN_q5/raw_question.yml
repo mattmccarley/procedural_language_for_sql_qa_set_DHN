@@ -1,0 +1,25 @@
+title: Q5
+type: scored_question
+prompt: List the key considerations for optimizing the performance of procedural language code in SQL. (Note: Provide up to 5 considerations)
+fields:
+checkbox_answers:
+    type: checkbox
+    max_score: 3
+    label: Check if answered correctly
+    checkboxes:
+      - label: "Minimize the use of cursors and favor set-based operations when possible."
+        points: 1
+        value: ans_0
+      - label: "Use appropriate indexing strategies for tables accessed in the procedural code."
+        points: 1
+        value: ans_1
+      - label: "Optimize SQL statements within the procedural code, including proper join techniques and efficient WHERE clauses."
+        points: 1
+        value: ans_2
+      - label: "Reduce the number of database round-trips by batching operations and using bulk collect/forall statements where applicable."
+        points: 1
+        value: ans_3
+      - label: "Properly handle exceptions and implement error logging to facilitate debugging and maintenance.
+<note>Note: Candidates should provide at least 3 of these considerations for optimizing performance.</note>"
+        points: 1
+        value: ans_4

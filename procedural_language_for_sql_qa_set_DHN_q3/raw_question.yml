@@ -1,0 +1,30 @@
+title: Q3
+type: scored_question
+prompt: What is an exception in procedural languages for SQL, and why is exception handling considered important in database programming?
+fields:
+checkbox_answers:
+    type: checkbox
+    max_score: 3
+    label: Check if answered correctly
+    checkboxes:
+      - label: "Definition: An exception in procedural languages for SQL is an error condition or abnormal situation that occurs during the execution of a program or procedure, disrupting the normal flow of code execution."
+        points: 1
+        value: ans_0
+      - label: "Importance of exception handling:"
+        points: 1
+        value: ans_1
+      - label: "Prevents abrupt termination of programs due to errors."
+        points: 1
+        value: ans_2
+      - label: "Allows for graceful error recovery and management."
+        points: 1
+        value: ans_3
+      - label: "Improves code reliability and robustness."
+        points: 1
+        value: ans_4
+      - label: "Provides a mechanism for custom error handling and reporting."
+        points: 1
+        value: ans_5
+      - label: "Helps maintain data integrity by allowing controlled rollback of transactions in case of errors."
+        points: 1
+        value: ans_6
